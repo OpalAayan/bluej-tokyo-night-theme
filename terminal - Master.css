@@ -1,0 +1,29 @@
+.terminal-output {
+    -fx-fill: #c0caf5; /* Default text */
+}
+.terminal-input {
+    -fx-fill: #9ece6a; /* Green for user input */
+}
+.terminal-method-record {
+    -fx-fill: #e0af68; /* Yellow/Orange for method calls */
+}
+.terminal-error {
+    -fx-fill: #f7768e; /* Red for errors */
+}
+.terminal-stack-link {
+    -fx-fill: #bb9af7; /* Purple for stack links */
+    -rtfx-underline-color: #bb9af7;
+    -rtfx-underline-width: 1;
+    -fx-cursor: hand;
+}
+.terminal-stack-foreign {
+    -fx-fill: #565f89; /* Muted color for foreign stack items */
+}
+
+.terminal-input-field {
+    -fx-prompt-text-fill: #565f89;
+}
+
+.terminal, .terminal-error {
+    -fx-background-color: #1a1b26; /* Main terminal background */
+}

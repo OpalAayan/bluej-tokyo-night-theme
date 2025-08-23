@@ -1,0 +1,36 @@
+.error-overview-bar-pane {
+    -fx-min-width: 15px;
+    -fx-border-width: 0 0 0 1px;
+    -fx-border-color: #414868;
+    -fx-background-color: #1a1b26;
+}
+
+.error-overview-bar-status {
+    -fx-font-size: 14px;
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-color: #414868;
+}
+
+.error-overview-bar-status:bj-success {
+    -fx-text-fill: #9ece6a; /* Green */
+    -fx-cursor: default;
+}
+
+.error-overview-bar-status:bj-failure {
+    -fx-text-fill: #f7768e; /* Red */
+    -fx-cursor: hand;
+}
+
+.error-overview-bar-status:bj-editing {
+    -fx-text-fill: #e0af68; /* Yellow */
+    -fx-cursor: default;
+}
+
+.error-overview-error {
+    -fx-fill: rgba(247, 118, 142, 0.7); /* Transparent Red */
+    -fx-stroke: #f7768e;
+    -fx-cursor: hand;
+}
+.error-overview-error:bj-showing {
+    -fx-fill: #f7768e;
+}

@@ -1,0 +1,59 @@
+.flow-top-bar {
+    -fx-padding: 0.75em 1em 0.75em 1em;
+    -fx-background-color: #16161e, #1f2335;
+    -fx-background-insets: 0 0 0 0, 0 0 1 0;
+}
+.flow-top-bar-buttons {
+    -fx-hgap: 0.5em;
+}
+.flow-top-bar-buttons > .button {
+    -fx-label-padding: 0 0.3em 0 0.3em;
+}
+.margin-and-text-line {
+    -fx-background-color: #1a1b26;
+    -fx-cursor: text;
+}
+.flow-margin-line {
+    -fx-stroke: #414868;
+}
+.flow-margin-background {
+    -fx-background-color: #1a1b26;
+    -fx-cursor: default;
+}
+.margin-and-text-line:bj-margin-uncompiled .flow-margin-background {
+    -fx-background-color: #1f2335;
+}
+.margin-and-text-line:bj-margin-error .flow-margin-background {
+    -fx-background-color: #5d2b3c;
+}
+.moe-breakpoint-icon, .moe-step-mark-icon {
+    -fx-cursor: default;
+}
+
+.flow-line-label {
+    -fx-font-size: 10px;
+    -fx-alignment: center-right;
+    -fx-graphic-text-gap: 0;
+    -fx-label-padding: 0 2 0 0;
+    -fx-text-fill: #565f89;
+    -fx-cursor: default;
+}
+.margin-and-text-line:bj-margin-error .flow-line-label {
+    -fx-text-fill: #f7768e;
+}
+.text-line .flow-selection {
+    -fx-fill: #414868;
+    -fx-stroke: null;
+}
+.text-line .flow-find-result {
+    -fx-fill: #565f89;
+    -fx-stroke: null;
+}
+.text-line .flow-bracket-match {
+    -fx-fill: #7aa2f7;
+    -fx-stroke: null;
+}
+
+.line-container {
+    -fx-background-color: #1a1b26;
+}

@@ -1,0 +1,32 @@
+.frame-editor-key-help-pane {
+   -fx-background-color: #16161e;
+   -fx-background-radius: 10;
+   -fx-padding: 10 10 10 0;
+   -fx-vgap: 4;
+   -fx-hgap: 10;
+}
+
+.frame-editor-key-help-pane .label {
+   -fx-text-fill: #c0caf5;
+}
+
+.frame-editor-key-help-pane .keyboard-key {
+   -fx-border-color: #c0caf5;
+   -fx-border-radius: 4;
+   -fx-background-color: transparent;
+   -fx-min-width: 1.5em;
+   -fx-min-height: 1.5em;
+   -fx-text-alignment: center;
+   -fx-alignment: center;
+}
+
+.frame-tooltip {
+   -fx-text-fill: #c0caf5;
+   -fx-background-color: rgba(22, 22, 30, 0.9);
+   -fx-background-radius: 10;
+   -fx-padding: 10 10 10 10;
+}
+.frame-tooltip:bj-tight-border {
+    -fx-background-radius: 5;
+   -fx-padding: 5;
+}

@@ -1,0 +1,76 @@
+.token-keyword1 {
+    -fx-fill: #7aa2f7;
+}
+.token-keyword2 {
+    -fx-fill: #7aa2f7;
+}
+.token-keyword3 {
+    -fx-fill: #bb9af7;
+}
+
+.token-comment-normal {
+    -fx-fill: #565f89;
+}
+.token-comment-javadoc {
+    -fx-fill: #565f89;
+}
+.token-comment-standout {
+    -fx-fill: #7aa2f7;
+}
+
+.token-primitive {
+    -fx-fill: #bb9af7;
+}
+.token-string-literal {
+    -fx-fill: #9ece6a;
+}
+.token-label {
+    -fx-fill: #c0caf5;
+}
+.token-invalid {
+    -fx-fill: #f7768e;
+}
+/* Default text colour */
+.token-default {
+    -fx-fill: #c0caf5;
+}
+
+.scope-colors {
+    -bj-background-color: #1a1b26;
+
+    -bj-class-color: #24283b;
+    -bj-class-outer-color: #16161e;
+    -bj-class-inner-color: #16161e;
+
+    -bj-method-color: #24283b;
+    -bj-method-outer-color: #16161e;
+
+    -bj-selection-color: #414868;
+    -bj-selection-outer-color: #1f2335;
+
+    -bj-iteration-color: #414868;
+    -bj-iteration-outer-color: #1f2335;
+
+    -bj-breakpoint-overlay-color: rgba(247, 118, 142, 0.5);
+    -bj-step-overlay-color: rgba(122, 162, 247, 0.5);
+}
+
+.moe-step-mark-icon {
+    -fx-fill: #9ece6a;
+    -fx-stroke: #c0caf5;
+}
+
+.moe-editor-pane {
+    -fx-background-color: #1a1b26;
+    -fx-highlight-fill: #414868;
+}
+
+.moe-find-result {
+    -rtfx-background-color: #414868;
+}
+
+/* 🌟 FINAL CURSOR FIX 🌟 */
+.moe-editor-pane .caret {
+   -fx-stroke: #d9e0ee; /* A bright, clean white/light gray */
+   -fx-stroke-width: 2px; /* Makes the caret thicker and more visible */
+}

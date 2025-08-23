@@ -1,0 +1,106 @@
+/* ░░ SYNTAX TOKEN COLORS ░░ */
+
+/* Keywords like if, else, for, return, public, etc. */
+.token-keyword1,
+.token-keyword2 {
+    -fx-fill: #89ddff; /* Bright cyan */
+}
+
+/* Class names, interfaces, and types like String, Scanner, List, etc. */
+.token-keyword3 {
+    -fx-fill: #d782e8; /* Lighter violet for class-based types */
+}
+
+/* NEW: Specifically targets method calls like 'println()' and other functions. */
+.token-method-call {
+    -fx-fill: #82aaff; /* A distinct, readable blue for methods */
+}
+
+/* NEW: Styles static fields, most notably 'out' in 'System.out'. */
+.token-static-field {
+    -fx-fill: #8bd5ca; /* Calm mint-teal, same as labels/enums */
+}
+
+/* Comments: inline, block, Javadoc */
+.token-comment-normal,
+.token-comment-javadoc,
+.token-comment-special {
+    -fx-fill: #7f849c; /* Muted lavender-gray — soft but readable */
+}
+
+/* Primitive types like int, boolean, char, float, long */
+.token-primitive {
+    -fx-fill: #c74de6; /* Vivid violet — distinct and elegant */
+}
+
+/* String literals like "Hello, world!" */
+.token-string-literal {
+    -fx-fill: #9ece6a; /* Soft green, great for visibility */
+}
+
+/* Char literals like 'A' and numeric constants like 123, 0xFF */
+.token-char-literal,
+.token-number {
+    -fx-fill: #f5a97f; /* Warm coral-peach */
+}
+
+/* Constants, labels, enums — symbols that are "named and fixed" */
+.token-label {
+    -fx-fill: #8bd5ca; /* Calm mint-teal */
+}
+
+/* Invalid or error code (like broken syntax) */
+.token-invalid {
+    -fx-fill: #f7768e; /* Rose pink — clearly wrong but stylish */
+    -fx-underline: true; /* Adds an underline to make errors more obvious */
+}
+
+/* Anything not captured above (default identifiers, names) */
+.token-default {
+    -fx-fill: #d9e0ee; /* Smooth off-white — universal readability */
+}
+
+ /* ░░ STRUCTURE / UI BACKGROUND COLORS ░░ */
+
+.scope-colors {
+    -bj-background-color: #140e1a; /* Aura base: dark wine-magenta */
+    /* CLASS BOX */
+    -bj-class-color: #311c36;            /* Rich plum fill — depth + aura vibe */
+    -bj-class-outer-color: #f38ba8;      /* Border: soft cherry blossom red */
+    -bj-class-inner-color: #1e1e2e;      /* Keeps the focus grounded */
+    /* METHOD BLOCK */
+    -bj-method-color: #2d3540;           /* Desaturated blue-gray */
+    -bj-method-outer-color: #a6e3a1;     /* Sage green border — calming, readable */
+    /* SELECTION BLOCK */
+    -bj-selection-color: #3e2e4b;        /* Deep muted purple */
+    -bj-selection-outer-color: #f9e2af;  /* Border: bright cream yellow */
+    /* ITERATION (for/while blocks) */
+    -bj-iteration-color: #2b3b3b;        /* Slate greenish-blue */
+    -bj-iteration-outer-color: #fab387;  /* Peachy orange — warmth and flow */
+    /* DEBUGGING: BREAKPOINT + STEP */
+    -bj-breakpoint-overlay-color: rgba(255, 95, 135, 0.45); /* Vibrant coral red overlay */
+    -bj-step-overlay-color: rgba(173, 255, 174, 0.35);      /* Soft mint green highlight */
+}
+
+/* ░░ DEBUGGING / UI INTERACTION COLORS ░░ */
+
+.moe-step-mark-icon {
+    -fx-fill: #a6e3a1;
+    -fx-stroke: #d9e0ee;
+}
+
+.moe-editor-pane {
+    -fx-background-color: #1a1b26; /* Editor background */
+    -fx-highlight-fill: #414868;   /* Text selection background */
+    -fx-highlight-text-fill: #c0caf5;
+}
+
+.moe-find-result {
+    -rtfx-background-color: #565f89;
+}
+
+/* 🌟 CORRECTED WHITE CURSOR STYLING 🌟 */
+.moe-editor-pane .caret {
+   -fx-stroke: #d9e0ee; /* A bright, clean white/light gray */
+   -fx-stroke-width: 2px; /* Makes the caret thicker and more visible */
+}

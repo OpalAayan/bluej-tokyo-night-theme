@@ -1,0 +1,104 @@
+/*
+ * MODULARIZED EDITOR (MOE) - THEMED FOR DARK TERMINAL
+ * This file controls the main editor pane used by the Terminal.
+ */
+
+.moe-top-bar, .moe-bottom-bar {
+    -fx-background-color: #1e1e2e, #14141c;
+    -fx-background-insets: 0 0 0 0, 0 0 1 0;
+}
+.moe-bottom-bar {
+    -fx-background-insets: 0 0 0 0, 1 0 0 0;
+}
+.moe-top-bar-buttons {
+    -fx-hgap: 0.5em;
+}
+.moe-top-bar-buttons > .button {
+    -fx-label-padding: 0 0.3em 0 0.3em;
+}
+.moe-bottom-status-row {
+    -fx-padding: 0.3em 0.5em 0.3em 0.5em;
+}
+.moe-status-label-wrapper {
+    -fx-border-style: solid inside;
+    -fx-border-color: #414868;
+    -fx-border-width: 0 0 0 1;
+}
+.moe-status-label-wrapper:bj-status-error {
+    -fx-cursor: hand;
+}
+.moe-status-label-wrapper .label {
+    -fx-font-family: "Source Sans Pro";
+    -fx-font-style: italic;
+    -fx-text-fill: #625a77;
+    -fx-label-padding: 0 8 0 8;
+    -fx-text-alignment: center;
+    -fx-min-width: 5em;
+    -fx-alignment: top-center;
+}
+.moe-status-label-wrapper .error-count-label {
+    -fx-font-style: normal;
+    -fx-text-fill: #ff79c6;
+    -fx-underline: true;
+}
+.moe-info {
+    -fx-font-family: "Source Sans Pro";
+}
+.moe-info-text {
+    -fx-fill: #e0dced;
+}
+
+.moe-find-panel {
+    -fx-padding: 0.5em 1em 0.5em 1em;
+    -fx-border-style: solid inside;
+    -fx-border-color: #414868;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-insets: 0 5 0 5;
+}
+
+.moe-line-label {
+    -fx-font-size: 10px;
+    -fx-alignment: center-right;
+    -fx-graphic-text-gap: 0;
+    -fx-label-padding: 0 2 0 0;
+    -fx-background-color: #1a1b26, #1a1b26;
+    -fx-text-fill: #565f89;
+}
+.moe-editor-pane:bj-screen .moe-line-label, .moe-editor-pane:bj-printing:bj-line-numbers .moe-line-label {
+    -fx-min-width: 24;
+    -fx-pref-width: 24;
+    -fx-max-width: 24;
+    -fx-background-insets: 0 0 0 0, 0 1 0 0;
+}
+.moe-editor-pane:bj-uncompiled .moe-line-label {
+    -fx-background-color: #1a1b26, derive(#1a1b26, 15%);
+    -fx-background-insets: -1 0 -1 0, -1 1 -1 0;
+}
+.moe-editor-pane:bj-uncompiled .moe-line-label:bj-error {
+    -fx-background-color: #f7768e;
+}
+.moe-line-label:bj-breakpoint, .moe-line-label:bj-step-mark {
+    -fx-label-padding: 0;
+}
+
+.moe-editor-pane {
+    -fx-background-color: #1a1b26;
+    -fx-caret-blink-rate: 0s;
+}
+.moe-background {
+    -fx-background-color: #1a1b26;
+}
+
+.moe-code-error {
+    /* Wavy red underline for errors */
+}
+.moe-find-field:bj-no-find-result {
+    -fx-text-fill: #f7768e;
+}
+.moe-editor-pane:bj-screen .moe-bracket-highlight {
+    -rtfx-background-color: #565f89;
+}
+.moe-step-mark-icon {
+    -fx-stroke-width: 1;
+    -fx-stroke-type: outside;
+}
