@@ -6,20 +6,22 @@ Tired of the default BlueJ look? This project completely overhauls the user inte
 Here's a look at the theme in action.
 
 Editor Window
+<img width="1366" height="768" alt="Screenshot From 2025-08-24 01-47-40" src="https://github.com/user-attachments/assets/5a84464e-9d4c-4f65-9bca-8a6ad5411a46" />
+
+
 
 Project View
+<img width="1366" height="768" alt="Screenshot From 2025-08-24 01-47-05" src="https://github.com/user-attachments/assets/9e37045a-47bb-42d4-8f5e-dc0ade1a54a6" />
 
-<!--- DRAG YOUR EDITOR SCREENSHOT HERE -->
 
-<!--- DRAG YOUR PROJECT VIEW SCREENSHOT HERE -->
 
 Preferences Dialog
+<img width="245" height="164" alt="Screenshot From 2025-08-24 01-48-06" src="https://github.com/user-attachments/assets/55cce761-476e-4cb3-8004-6391a44d3cb5" />
+
 
 Terminal
+<img width="1366" height="768" alt="Screenshot From 2025-08-24 01-48-44" src="https://github.com/user-attachments/assets/4ba944c8-263c-4634-85a5-fff50c766118" />
 
-<!--- DRAG YOUR PREFERENCES SCREENSHOT HERE -->
-
-<!--- DRAG YOUR TERMINAL SCREENSHOT HERE -->
 
 🚀 Features
 Comprehensive Theming: Styles almost every part of the UI, including menus, dialogs, buttons, the code editor, and the terminal.
