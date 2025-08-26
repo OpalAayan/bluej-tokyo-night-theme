@@ -13,7 +13,14 @@ Editor Window
 Project View
 <img width="1366" height="768" src="https://github.com/user-attachments/assets/9e37045a-47bb-42d4-8f5e-dc0ade1a54a6" alt="Project Screenshot" />
 
-Preferences Dialog -> <img width="245" height="164" src="https://github.com/user-attachments/assets/55cce761-476e-4cb3-8004-6391a44d3cb5" alt="Preferences Screenshot" />
+Preferences Dialog ->
+
+<img width="262" height="416" alt="Screenshot From 2025-08-26 17-47-26" src="https://github.com/user-attachments/assets/0a8e647f-774f-402d-8595-675702ffc5cd" />
+
+<img width="259" height="370" alt="Screenshot From 2025-08-26 17-47-10" src="https://github.com/user-attachments/assets/5fae203e-07e3-42b6-ae42-52e550080e5d" />
+
+<img width="245" height="164" src="https://github.com/user-attachments/assets/55cce761-476e-4cb3-8004-6391a44d3cb5" alt="Preferences Screenshot" />
+
 
 Terminal
 <img width="1366" height="768" src="https://github.com/user-attachments/assets/4ba944c8-263c-4634-85a5-fff50c766118" alt="Terminal Screenshot" />
@@ -35,11 +42,11 @@ Click the green Code button on this page → Download ZIP.
 
 Locate BlueJ’s stylesheet folder
 
-Windows: C:\Program Files\BlueJ\lib\stylesheets
+Windows: `C:\Program Files\BlueJ\lib\stylesheets`
 
-macOS: Right-click BlueJ → Show Package Contents → Contents/Resources/Java/stylesheets
+macOS: Right-click BlueJ → Show Package Contents → `Contents/Resources/Java/stylesheets`
 
-Linux: Usually /usr/share/bluej/lib/stylesheets
+Linux: Usually `/usr/share/bluej/lib/stylesheets`
 
 Replace the files
 
