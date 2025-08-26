@@ -13,8 +13,7 @@ Editor Window
 Project View
 <img width="1366" height="768" src="https://github.com/user-attachments/assets/9e37045a-47bb-42d4-8f5e-dc0ade1a54a6" alt="Project Screenshot" />
 
-Preferences Dialog
-<img width="245" height="164" src="https://github.com/user-attachments/assets/55cce761-476e-4cb3-8004-6391a44d3cb5" alt="Preferences Screenshot" />
+Preferences Dialog -> <img width="245" height="164" src="https://github.com/user-attachments/assets/55cce761-476e-4cb3-8004-6391a44d3cb5" alt="Preferences Screenshot" />
 
 Terminal
 <img width="1366" height="768" src="https://github.com/user-attachments/assets/4ba944c8-263c-4634-85a5-fff50c766118" alt="Terminal Screenshot" />
