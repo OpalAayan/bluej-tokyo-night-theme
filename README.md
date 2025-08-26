@@ -26,6 +26,7 @@ Terminal
 <img width="1366" height="768" src="https://github.com/user-attachments/assets/4ba944c8-263c-4634-85a5-fff50c766118" alt="Terminal Screenshot" />
 
 "I'm still trying to figure out how to customize the terminal colors to my liking. Help would be appreciated!"
+
 🚀 Features
 
 🎨 Comprehensive theming — Styles menus, dialogs, buttons, editor, and terminal.
