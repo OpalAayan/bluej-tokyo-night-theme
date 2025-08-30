@@ -16,7 +16,7 @@
 }
 .tabbed-editor > .tab-header-area .moe-tab:selected {
     /* Remove border at bottom of tab when selected: */
-    -fx-background-color: #1a1b26 !important;
+    -fx-background-color: #f6e8b1!important; /* #1a1b26*/
     -fx-border-color: transparent !important;
 }
 .tabbed-editor > .tab-header-area  {

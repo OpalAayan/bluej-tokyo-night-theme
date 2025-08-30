@@ -61,7 +61,7 @@
     -fx-alignment: center-right;
     -fx-graphic-text-gap: 0;
     -fx-label-padding: 0 2 0 0;
-    -fx-background-color: #1a1b26, #1a1b26;
+    -fx-background-color: #f6e8b1, #f6e8b1; /*1a1b26*/
     -fx-text-fill: #565f89;
 }
 .moe-editor-pane:bj-screen .moe-line-label, .moe-editor-pane:bj-printing:bj-line-numbers .moe-line-label {
@@ -71,7 +71,7 @@
     -fx-background-insets: 0 0 0 0, 0 1 0 0;
 }
 .moe-editor-pane:bj-uncompiled .moe-line-label {
-    -fx-background-color: #1a1b26, derive(#1a1b26, 15%);
+    -fx-background-color: #f6e8b1, derive(#f6e8b1, 15%); /*1a1b26*/
     -fx-background-insets: -1 0 -1 0, -1 1 -1 0;
 }
 .moe-editor-pane:bj-uncompiled .moe-line-label:bj-error {
@@ -82,11 +82,11 @@
 }
 
 .moe-editor-pane {
-    -fx-background-color: #1a1b26;
+    -fx-background-color: #f6e8b1; /*1a1b26*/
     -fx-caret-blink-rate: 0s;
 }
 .moe-background {
-    -fx-background-color: #1a1b26;
+    -fx-background-color: #f6e8b1; /*1a1b26*/
 }
 
 .moe-code-error {
