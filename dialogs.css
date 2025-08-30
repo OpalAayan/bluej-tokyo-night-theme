@@ -26,10 +26,10 @@ Shared */
     /* See http://jxnblk.com/paths/?d=M24%2056%20L64%2016%20L56%208%20L24%2042%20L12%2031%20L5%2038.5%20Z */
     -fx-shape: "M24 56 L64 16 L56 8 L24 42 L12 31 L5 38.5 Z";
     -fx-opacity: 0.0;
-    -fx-background-color: #c0caf5;
+    -fx-background-color: #0c010d /*#c0caf5;*/
 }
 .radio-check-border:selected > .radio > .dot {
-    -fx-background-color: #c0caf5;
+    -fx-background-color:  #0c010d /*#c0caf5;*/
     -fx-opacity: 1.0;
 }
 .radio-check-border.left-pill {
@@ -95,7 +95,7 @@ Shared */
     -fx-background-color: #1a1b26;
 }
 .about-dialog-content .label, .about-dialog-content .hyperlink .label {
-    -fx-text-fill: #c0caf5;
+    -fx-text-fill:  #0c010d /*#c0caf5;*/;
 }
 .about-team {
     -fx-padding: 0 0 1em 0;
@@ -132,7 +132,7 @@ Shared */
 }
 .about-translators-table .table-row-cell .table-cell {
     -fx-border-width: 0px;
-    -fx-text-fill: #c0caf5;
+    -fx-text-fill:  #0c010d /*#c0caf5;*/;
 }
 .about-contributors-title {
     -fx-font-weight: bold;
@@ -143,10 +143,10 @@ Shared */
     -fx-background-radius: 5px;
 }
 .prefmgr-titled .title .text {
-    -fx-fill: #c0caf5;
+    -fx-fill:  #0c010d /*#c0caf5;*/;
 }
 .formatted-print-flow .formatted-print-line:bj-color-default {
-    -fx-fill: #c0caf5;
+    -fx-fill:  #0c010d /*#c0caf5;*/;
 }
 .formatted-print-flow .formatted-print-line:bj-color-gray {
     -fx-fill: #565f89;
