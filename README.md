@@ -9,7 +9,12 @@ Tired of BlueJ’s outdated default look? This theme gives BlueJ a fresh, profes
 Here’s the theme in action:
 
 Editor Window
-<img width="1366" height="768" src="https://github.com/user-attachments/assets/5a84464e-9d4c-4f65-9bca-8a6ad5411a46" alt="Editor Screenshot" />
+<img width="1366" height="768" alt="Screenshot From 2025-08-30 16-49-02" src="https://github.com/user-attachments/assets/f95cb037-677a-4858-be12-d9fbfcca0e3a" />
+
+Well In this Pic I have chnage the codepad colors from #140e1a to #24152d (Just to make the cursor) visible I will uploade the *`java-colors.css`* file soon
+Let me know if you want it 
+
+
 Project View
 <img width="1366" height="768" src="https://github.com/user-attachments/assets/9e37045a-47bb-42d4-8f5e-dc0ade1a54a6" alt="Project Screenshot" />
 
