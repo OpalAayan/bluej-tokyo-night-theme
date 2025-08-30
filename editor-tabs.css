@@ -5,7 +5,7 @@
 .tabbed-editor > .tab-header-area .tab {
     -fx-border-width: 0 0 2 0;
     -fx-border-color: #16161e;
-    -fx-background-color: #414868;
+    -fx-background-color:  #fdfbd5 /*(Non selected Class name tab will be less dark)   /*#414868;*/
 }
 .tabbed-editor > .tab-header-area .tab .tab-label {
     -fx-text-fill: #c0caf5;

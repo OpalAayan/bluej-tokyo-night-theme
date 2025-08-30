@@ -4,7 +4,8 @@
  */
 
 .moe-top-bar, .moe-bottom-bar {
-    -fx-background-color: #1e1e2e, #14141c;
+     -fx-background-color: #fdfbd5, #14141c;  /*1e1e2e*/
+    
     -fx-background-insets: 0 0 0 0, 0 0 1 0;
 }
 .moe-bottom-bar {

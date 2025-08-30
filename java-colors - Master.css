@@ -36,7 +36,7 @@
 }
 
 .scope-colors {
-    -bj-background-color: #1a1b26;
+    -bj-background-color: #262335;
 
     -bj-class-color: #24283b;
     -bj-class-outer-color: #16161e;
@@ -45,8 +45,9 @@
     -bj-method-color: #24283b;
     -bj-method-outer-color: #16161e;
 
-    -bj-selection-color: #414868;
-    -bj-selection-outer-color: #1f2335;
+    /* --- ▼▼▼ SELECTION BLOCK (FINAL FIX) ▼▼▼ --- */
+    -bj-selection-color: #3e2e4b; /* Main highlight color */
+    -bj-selection-outer-color: #3e2e4b; /* Ensures a solid, full-line highlight */
 
     -bj-iteration-color: #414868;
     -bj-iteration-outer-color: #1f2335;
@@ -61,16 +62,13 @@
 }
 
 .moe-editor-pane {
-    -fx-background-color: #1a1b26;
+    -fx-background-color: #262335;
     -fx-highlight-fill: #414868;
 }
 
 .moe-find-result {
     -rtfx-background-color: #414868;
 }
-
-/* 🌟 FINAL CURSOR FIX 🌟 */
 .moe-editor-pane .caret {
-   -fx-stroke: #d9e0ee; /* A bright, clean white/light gray */
-   -fx-stroke-width: 2px; /* Makes the caret thicker and more visible */
+   -fx-stroke: #bb9af7;
 }
