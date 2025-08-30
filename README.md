@@ -11,7 +11,8 @@ Here’s the theme in action:
 Editor Window
 <img width="1366" height="768" alt="Screenshot From 2025-08-30 16-49-02" src="https://github.com/user-attachments/assets/f95cb037-677a-4858-be12-d9fbfcca0e3a" />
 
-Well In this Pic I have chnage the codepad colors from #140e1a to #24152d (Just to make the cursor) visible I will uploade the *`java-colors.css`* file soon
+Well In this Pic I have chnage the codepad colors from *#140e1a* to *#24152d* (Just to make the cursor visible) //I will soon make an extention to fix it
+I will uploade the *`java-colors.css`* file soon
 Let me know if you want it 
 
 
