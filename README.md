@@ -81,7 +81,7 @@ I’ll also upload the `java-colors.css` file soon—let me know if you’d like
 - Improved terminal theming.
 - More palette variants (e.g., Storm, Night, Moon).
 
-> Some UI elements may be hardcoded in BlueJ and not fully themeable via CSS alone. The planned extension aims to cover these gaps and deliver a 100% complete theme.
+> Some UI elements may be hardcoded in BlueJ and not fully themeable via CSS alone. The planned extension aims to cover these gaps and deliver a 99% complete theme.
 
 ---
 
