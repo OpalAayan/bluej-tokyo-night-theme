@@ -10,14 +10,14 @@
     -fx-label-padding: 0 0.3em 0 0.3em;
 }
 .margin-and-text-line {
-    -fx-background-color: #1a1b26;
+    -fx-background-color: #262335;
     -fx-cursor: text;
 }
 .flow-margin-line {
     -fx-stroke: #414868;
 }
 .flow-margin-background {
-    -fx-background-color: #1a1b26;
+    -fx-background-color: #262335;
     -fx-cursor: default;
 }
 .margin-and-text-line:bj-margin-uncompiled .flow-margin-background {
@@ -55,5 +55,5 @@
 }
 
 .line-container {
-    -fx-background-color: #1a1b26;
+    -fx-background-color: #262335;
 }

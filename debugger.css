@@ -28,11 +28,11 @@
 }
 .debugger .split-pane {
     /* Remove outer border */
-    -fx-background-color: #1a1b26, #1a1b26;
+    -fx-background-color: #262335, #262335;
 }
 
 .debugger .terminate-icon {
-    -fx-stroke: #1a1b26;
+    -fx-stroke: #262335;
     -fx-stroke-type: inside;
     -fx-stroke-width: 1;
     -fx-fill: #f7768e;
@@ -41,7 +41,7 @@
     -fx-alignment: center;
 }
 .debugger .step-icon-arrow, .debugger .step-icon-bar, .debugger .continue-icon-arrow, .debugger .step-into-icon {
-    -fx-stroke: #1a1b26;
+    -fx-stroke: #262335;
     -fx-stroke-type: inside;
     -fx-stroke-width: 1;
     -fx-fill: #9ece6a;

@@ -2,8 +2,8 @@
 .root {
     -fx-font-family: "Source Sans Pro";
 
-    class-frame: #1a1b26;
-    class-frame-java: #1a1b26;
+    class-frame: #262335;
+    class-frame-java: #262335;
     class-comment-focus: #24283b;
     class-comment-text: #565f89;
 
@@ -53,20 +53,20 @@
     debug-info-highlight: #f7768e;
     debug-info-text: #1a1b26;
         
-    method-frame: #1a1b26;
-    method-frame-java: #1a1b26;
+    method-frame: #262335;
+    method-frame-java: #262335;
     method-border: #16161e;
     method-border-java: #16161e;
     method-comment-focus: #24283b;
     method-comment-text: #565f89;
     method-comment-prompt: #414868;
-    method-header: #1a1b26;
+    method-header: #262335;
     method-header-pinned: #16161e;
 
-    frame-canvas-empty: #1a1b26;
-    frame-canvas-non-empty: #1a1b26;
-    frame:  #1a1b26;
-    frame-border: #1a1b26;
+    frame-canvas-empty: #262335;
+    frame-canvas-non-empty: #262335;
+    frame:  #262335;
+    frame-border: #262335;
     frame-canvas-border: #414868;
     frame-canvas-border-java: #414868;
     frame-stack-border: #e0af68;
@@ -75,72 +75,3 @@
     focused-slot: #24283b;
     text-slot-prompt-text: #565f89;
 }
-
-/* default for all frames */
-.frame {
-    -fx-background-color: frame;
-    -fx-border-color: frame-border;
-    -fx-border-radius: 5;
-    -fx-background-radius: 5;
-    -fx-border-width: 1;
-    -fx-border-style: solid inside;
-    -fx-padding: 0 0 0 0;
-}
-.frame:bj-java-preview {
-    -fx-background-color: frame;
-    -fx-border-color: frame-border;
-}
-
-/* ... other rules ... */
-/* General text color for labels etc. */
-.label, .caption, .var-caption, .sidelabel, .class-section-label, .interface-section-label, .class-inherited-label, .interface-inherited-label, .method-override-label, .inherited-method-override-label {
-    -fx-text-fill: #c0caf5;
-}
-
-.var-caption:bj-transparent {
-    -fx-text-fill: transparent;
-}
-
-/* Text slots and inputs */
-.text-slot, .choice-slot, .expression-slot-field {
-    -fx-border-color: #414868;
-    -fx-border-radius: 4;
-    -fx-background-radius: 4;
-    -fx-background-color: focused-slot;
-    -fx-cursor: text;
-}
-.text-slot, .text-slot:disabled {
-    -fx-text-fill: #c0caf5;
-    -fx-opacity: 1.0;
-}
-.text-field, .text-area {
-   -fx-highlight-text-fill: #1a1b26;
-   -fx-text-fill: #c0caf5;
-}
-.text-slot:bj-transparent, .text-slot:bj-pinned, .choice-slot:bj-transparent, .expression-slot-field:bj-transparent {
-    -fx-background-color: transparent;
-    -fx-border-color: transparent;
-}
-.comment-documentation-text:focused, .import-field:focused {
-    -fx-background-color: focused-slot;
-}
-.debugger-buttons {
-    -fx-background-color: #16161e;
-    -fx-border-color: #414868;
-}
-.frame:bj-frame-error {
-  -fx-border-color: #f7768e;
-  -fx-border-width: 2;
-  -fx-border-style: segments(8, 3);
-}
-
-.frame-cursor{
-    -fx-background-color: #7aa2f7;
-    -fx-border-radius: 5;
-    -fx-background-radius: 5;
-    -fx-border-color: #c0caf5;
-}
-.frame-cursor:bj-java-preview {
-    -fx-background-color: #fdff91;
-}
-/* ... remaining frame-style.css rules retained but not shown for brevity as they inherit the new root colors ... */
