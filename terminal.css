@@ -1,107 +1,67 @@
-/*
- * MODULARIZED EDITOR (MOE) - THEMED FOR DARK TERMINAL
- * This file controls the main editor pane used by the Terminal.
- */
 
-.moe-top-bar, .moe-bottom-bar {
-    -fx-background-color: #181825, #14141c; /* Crust and Mantle */
-    -fx-background-insets: 0 0 0 0, 0 0 1 0;
+.terminal .virtual-flow {
+    -fx-gravity: rear;
+    -fx-background-color: #262335;
+
 }
-.moe-bottom-bar {
-    -fx-background-color: #181825; /* Crust */
-    -fx-border-width: 1 0 0 0;
-    -fx-border-color: #313244; /* Surface0 */
-    -fx-background-insets: 0;
+
+.terminal-split {
+    -fx-orientation: vertical;
+    -fx-background-color: #262335;
+
 }
-.moe-top-bar-buttons {
-    -fx-hgap: 0.5em;
+.terminal-output {
+    -fx-fill: rgb(0, 0, 0);
+    -fx-background-color: #191521;
+    -fx-cursor: text;
 }
-.moe-top-bar-buttons > .button {
-    -fx-label-padding: 0 0.3em 0 0.3em;
+.terminal-input {
+    -fx-fill: #4317bb;
+    -fx-background-color: #262335;
+
 }
-.moe-bottom-status-row {
-    -fx-padding: 0.3em 0.5em 0.3em 0.5em;
+.terminal-method-record {
+    -fx-fill: rgb(254, 4, 100);
+    -fx-background-color: #262335;
+
 }
-.moe-status-label-wrapper {
-    -fx-border-style: solid inside;
-    -fx-border-color: #45475a; /* Surface1 */
-    -fx-border-width: 0 0 0 1;
+.terminal-error {
+    -fx-fill: red;
+    -fx-background-color: rgb(255, 99, 185);
+    -fx-cursor: text;
+    -fx-background-color: #262335;
+
 }
-.moe-status-label-wrapper:bj-status-error {
-    -fx-cursor: hand;
+.terminal-output .flow-selection, .terminal-error .flow-selection {
+    -fx-fill: hsb(211, 50%, 90%);
+    -fx-stroke: null;
+    -fx-background-color: #262335;
+
 }
-.moe-status-label-wrapper .label {
-    -fx-font-family: "Source Sans Pro";
-    -fx-font-style: normal;
-    -fx-text-fill: #a6adc8; /* Subtext1 */
-    -fx-label-padding: 0 8 0 8;
-    -fx-text-alignment: center;
-    -fx-min-width: 5em;
-    -fx-alignment: top-center;
-}
-.moe-status-label-wrapper .error-count-label {
-    -fx-font-style: normal;
-    -fx-text-fill: #f38ba8; /* Red */
+.terminal-stack-link {
+    -fx-fill: rgb(255, 96, 96);
     -fx-underline: true;
+    -fx-cursor: hand;
+    -fx-background-color: #262335;
+
 }
-.moe-info {
-    -fx-font-family: "Source Sans Pro";
-}
-.moe-info-text {
-    -fx-fill: #cdd6f4; /* Text */
+.terminal-stack-foreign {
+    -fx-fill: hsb(0, 0%, 70%);
+    -fx-background-color: #262335;
+
 }
 
-.moe-find-panel {
-    -fx-padding: 0.5em 1em 0.5em 1em;
-    -fx-border-style: solid inside;
-    -fx-border-color: #45475a; /* Surface1 */
-    -fx-border-width: 0 0 1 0;
-    -fx-border-insets: 0 5 0 5;
+/* Show prompt text even when we are focused: */
+.terminal-input-field {
+    -fx-prompt-text-fill: #ffd700;
+    -fx-background-color: #262335;
+    -fx-text-fill: rgb(240, 130, 255);
+    -fx-stroke-width: 6px;
+
 }
 
-.moe-line-label {
-    -fx-font-size: 10px;
-    -fx-alignment: center-right;
-    -fx-graphic-text-gap: 0;
-    -fx-label-padding: 0 4 0 0;
-    -fx-background-color: #1e1e2e, #181825; /* Base and Crust */
-    -fx-text-fill: #6c7086; /* Overlay1 */
-    -fx-background-insets: 0, 0 1 0 0;
-}
-.moe-editor-pane:bj-screen .moe-line-label, .moe-editor-pane:bj-printing:bj-line-numbers .moe-line-label {
-    -fx-min-width: 24;
-    -fx-pref-width: 24;
-    -fx-max-width: 24;
-}
-.moe-editor-pane:bj-uncompiled .moe-line-label {
-    -fx-background-color: #1e1e2e, #313244; /* Base and Surface0 */
-}
-.moe-editor-pane:bj-uncompiled .moe-line-label:bj-error {
-    -fx-background-color: #f38ba8; /* Red */
-    -fx-text-fill: #1e1e2e; /* Base */
-}
-.moe-line-label:bj-breakpoint, .moe-line-label:bj-step-mark {
-    -fx-label-padding: 0;
-}
+/* Slightly darker than white to make input field stand out: */
+.terminal, .terminal-error {
+    -fx-background-color: rgb(207, 207, 207);
 
-.moe-editor-pane {
-    -fx-background-color: #1e1e2e; /* Base */
-    -fx-caret-blink-rate: 0s;
-}
-.moe-background {
-    -fx-background-color: #1e1e2e; /* Base */
-}
-
-.moe-code-error {
-    /* Wavy red underline for errors */
-}
-.moe-find-field:bj-no-find-result {
-    -fx-text-fill: #f38ba8; /* Red */
-}
-.moe-editor-pane:bj-screen .moe-bracket-highlight {
-    -rtfx-background-color: #585b70; /* Surface2 */
-}
-.moe-step-mark-icon {
-    -fx-stroke-width: 1;
-    -fx-stroke-type: outside;
 }
