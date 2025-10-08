@@ -107,7 +107,10 @@ If you know good hooks for terminal colors or How may I change that Cursor Color
 
 ## ❤️ Acknowledgements
 
-- Thanks to Vickwes as His configs helped me when needed do check his repo out - https://github.com/Vickwes/BlueJ-Dark-Mode  
+- Thanks to Vickwes as His configs helped me when needed do check his repo out - https://github.com/Vickwes/BlueJ-Dark-Mode
+- Thanks to this Ninja 🥷 https://github.com/WickedKakashi 
+was a silent helper but also the core reason for this matching palettes.. 
+
 - Inspired by the **Tokyo Night** , **Catppuccin** and **Ocean Space** palettes.
 
 ---
